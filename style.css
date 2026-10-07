@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cabecalho {
+  height: 80px;
+  background-color: #242b36;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8%;
+}
+
+.cabecalho-logo {
+  width: 170px;
+  margin-bottom: .2em;
+}
+.cabecalho-nav {
+  display: flex;
+  gap: 30px;
+  text-align: center;
+}
+.cabecalho-nav-item {
+  color: white;
+  display: inline-block;
+  line-height: 2;
+  margin: 0 .5em;
+  font-size: 16px;
+}
+.cabecalho-nav-item a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Open Sans', serif;
+}
+.cabecalho-nav-item a:hover{
+  color: #d45b68;
+}
+.conteudo {
+  height: 600px;
+    background-image: url("bg-intro.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .secaoDestaque{
+    width: 80%;
+    max-width: 850px;
+
+  }
+  .conteudo h1{
+    color: white;
+    font-size: 58px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .conteudo p{
+    color: white;
+    font-size: 21px;
+    line-height: 1.4;
+    max-width: 700px;
+    margin: 0 auto 40px;
+  }
+  .btnPadrao {
+  border-radius: 5px;
+  border: 0;
+  background-color: #B72E2E;
+  color: #fff;
+  font-size: 1.2em;
+  padding: .3em 1em;
+  font-family: 'Open Sans', 'Segoe UI', sans-serif;
+  outline: 0;
+  text-decoration: none;
+}
+
+.btnPadrao:hover,
+.btnPadrao:focus {
+  background-image: linear-gradient(rgba(255, 255, 255, .05), rgba(255, 255, 255, .05));
+  cursor: pointer;
+}
